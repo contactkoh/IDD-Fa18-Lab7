@@ -12,9 +12,16 @@
 
 **a. Link to a video of your HelloYou sketch running.**
 
+[![Watch the video](https://img.youtube.com/vi/P1V58qeqeeA/0.jpg)](https://youtu.be/P1V58qeqeeA) Finished Box with Durable Working Bopper! with a nice view of the East River.
+
 ## Part B. Web Camera
 
 **a. Compare `helloYou/server.js` and `IDD-Fa18-Lab7/pictureServer.js`. What elements had to be added or changed to enable the web camera? (Hint: It might be good to know that there is a UNIX command called `diff` that compares files.)**
+
+I ran the diff on terminal. The main change seems to be the added webcam functionality in the pictureServer.js. 
+
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/pictureServer1.jpg)
+
 
 **b. Include a video of your working video doorbell**
 
@@ -23,3 +30,13 @@
 **a. Find, install, and try out a node-based library and try to incorporate into your lab. Document your successes and failures (totally okay!) for your writeup. This will help others in class figure out cool new tools and capabilities.**
 
 **b. Upload a video of your working modified project**
+
+
+
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab5/blob/master/finish3.jpg)
+
+
+1. A video of your useless box in action.
+
+
+[![Watch the video](https://img.youtube.com/vi/P1V58qeqeeA/0.jpg)](https://youtu.be/P1V58qeqeeA) Finished Box with Durable Working Bopper! with a nice view of the East River.
