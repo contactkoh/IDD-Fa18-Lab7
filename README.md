@@ -14,6 +14,7 @@
 
 [![Watch the video](https://img.youtube.com/vi/6XdXe3NJdmM/0.jpg)](https://youtu.be/6XdXe3NJdmM) HelloYou.
 
+[![Watch the video](https://img.youtube.com/vi/bRsL-9n1XgA/0.jpg)](https://youtu.be/bRsL-9n1XgA) Button working
 
 
 ## Part B. Web Camera
@@ -23,11 +24,13 @@
 I ran the diff on terminal. The main change seems to be the added webcam functionality in the pictureServer.js. 
 pictureServer.js:   It also has Webcam obj constructor which specifies the sizes(width, length, etc) of the picture, and jpeg format. 
 When the user clicks to take a photo, NodeWebCam class is used to capture the image. The images are stored in the public folder.
-
-![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/pictureServer1.jpg)
-
+When the parser is reading the arduino button, the button read-in sends dark and light via emit to web page which changes the background color of the web site.
+socket.io has takePicture method which takes the picture and gets rid of special characters but merges the date info to make a jpeg picture and save them in the public folder. 
 
 **b. Include a video of your working video doorbell**
+
+[![Watch the video](https://img.youtube.com/vi/bRsL-9n1XgA/0.jpg)](https://youtu.be/bRsL-9n1XgA) video doorbell working
+
 
 ## Part C. Make it your own
 
