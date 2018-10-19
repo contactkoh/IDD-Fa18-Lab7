@@ -56,6 +56,6 @@ I googled for other ways to do it but without the fundamental background in node
 
 Unsuccessful attempt screenshot after many trials...
 
-![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm4.jpg)
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm1.jpg)
 
 
