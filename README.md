@@ -36,14 +36,26 @@ socket.io has takePicture method which takes the picture and gets rid of special
 
 **a. Find, install, and try out a node-based library and try to incorporate into your lab. Document your successes and failures (totally okay!) for your writeup. This will help others in class figure out cool new tools and capabilities.**
 
+I tried to add a thumbnail image function to the takePicture method.
+I followed the instruction online. Installed the gm package and added the var declaration and method to resize the image. 
+I set the image path to the public folder.
+I was able to run the server and take picture.
+However, when I checked the public folder where the resized image png file must be in, I was not able to find the resized file. 
+I googled for other ways to do it but without the fundamental background in node.js and scripting, I was unsuccessful.. 
+
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm1.jpg)
+
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm2.jpg)
+
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm3.jpg)
+
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm4.jpg)
+
+
 **b. Upload a video of your working modified project**
 
+Unsuccessful attempt screenshot after many trials...
+
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm4.jpg)
 
 
-![alt text](https://github.com/contactkoh/IDD-Fa18-Lab5/blob/master/finish3.jpg)
-
-
-1. A video of your useless box in action.
-
-
-[![Watch the video](https://img.youtube.com/vi/P1V58qeqeeA/0.jpg)](https://youtu.be/P1V58qeqeeA) Finished Box with Durable Working Bopper! with a nice view of the East River.
