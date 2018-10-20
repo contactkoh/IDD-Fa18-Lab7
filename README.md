@@ -49,8 +49,6 @@ I googled for other ways to do it but without the fundamental background in node
 
 ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm3.jpg)
 
-![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm4.jpg)
-
 
 **b. Upload a video of your working modified project**
 
