@@ -56,4 +56,5 @@ Unsuccessful attempt screenshot after many trials...
 
 ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm1.jpg)
 
+[![Watch the video](https://img.youtube.com/vi/bRsL-9n1XgA/0.jpg)](https://youtu.be/bRsL-9n1XgA) video doorbell working
 
