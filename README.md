@@ -43,21 +43,26 @@ I tried to add a thumbnail image function to the takePicture method.
 I followed the instruction online. Installed the gm package and added the var declaration and method to resize the image. 
 I set the image path to the public folder.
 I was able to run the server and take picture.
-However, when I checked the public folder where the resized image png file must be in, I was not able to find the resized file. 
-I googled for other ways to do it but without the fundamental background in node.js and scripting, I was unsuccessful.. 
 
-![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm1.jpg)
+The challenge was to install the imagemagick. 
+I installed it using sudo apt-get imagemagick and npm install imagemagick. 
 
-![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm2.jpg)
+Thanks for the TA Andrea and classmates that helped on the classroom discord channel. 
 
-![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm3.jpg)
+I was able to modify the pictureServer.js (in the attached) 
+to apply the resizing function from the npm site. 
+
+The resizing and emiting worked. However, it does not work well if I take more than one picture.
+The problem seems to be that it takes some time to resize the captured image.  Although thumbnail image appears broken upon initial emiting, it shows up if I clicked on the image to appear after some time. 
+
+If there was a way to effectively delay or wait for the resizing and then emiting the thumbnail back to the website, it might have worked better. 
+
+After struggling for hours, below and the attached (git pushed) files are what I could do within the limited time.
 
 
 **b. Upload a video of your working modified project**
 
-Unsuccessful attempt screenshot after many trials...
+A video of working doorbell that sends a resized thumbnail image once the button is clicked. 
 
-![alt text](https://github.com/contactkoh/IDD-Fa18-Lab7/blob/master/gm1.jpg)
-
-[![Watch the video](https://img.youtube.com/vi/bRsL-9n1XgA/0.jpg)](https://youtu.be/bRsL-9n1XgA) video doorbell working
+[![Watch the video](https://img.youtube.com/vi/BFQDoGDtTM8/0.jpg)](https://youtu.be/BFQDoGDtTM8) doorbell sending resized thumbnail image.
 
