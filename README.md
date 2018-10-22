@@ -12,9 +12,10 @@
 
 **a. Link to a video of your HelloYou sketch running.**
 
-[![Watch the video](https://img.youtube.com/vi/6XdXe3NJdmM/0.jpg)](https://youtu.be/6XdXe3NJdmM) HelloYou.
+[![Watch the video](https://img.youtube.com/vi/3CKa2gV6IuQ/0.jpg)](https://youtu.be/3CKa2gV6IuQ) Button working
 
-[![Watch the video](https://img.youtube.com/vi/bRsL-9n1XgA/0.jpg)](https://youtu.be/bRsL-9n1XgA) Button working
+
+[![Watch the video](https://img.youtube.com/vi/6XdXe3NJdmM/0.jpg)](https://youtu.be/6XdXe3NJdmM) HelloYou.
 
 
 ## Part B. Web Camera
@@ -26,6 +27,8 @@ pictureServer.js:   It also has Webcam obj constructor which specifies the sizes
 When the user clicks to take a photo, NodeWebCam class is used to capture the image. The images are stored in the public folder.
 When the parser is reading the arduino button, the button read-in sends dark and light via emit to web page which changes the background color of the web site.
 socket.io has takePicture method which takes the picture and gets rid of special characters but merges the date info to make a jpeg picture and save them in the public folder. 
+
+To enable button on Arduino to take picture, pictureServer.js parser would listen to the serial from Arduino which gets passed to client.js on client side via server-msg socket which would be received in client.js. THis was already happening on button click which changes the background color, so I simply added the call to takePicture() in client.js inside the socket sever-msg's switch statement which mimicks taking photo (light --> black).
 
 **b. Include a video of your working video doorbell**
 
