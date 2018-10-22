@@ -41,6 +41,7 @@ socket.on('server-msg', function(msg) {
   console.log('msg:', msg);
   switch (msg) {
     case "light":
+      takePicture()
       document.body.style.backgroundColor = "white";
       console.log("white")
       break;
