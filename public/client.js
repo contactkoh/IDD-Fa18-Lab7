@@ -1,6 +1,6 @@
 /*
 client.js
-
+    
 Author: Nikolas Martelaro (nmartelaro@gmail.com)
 Extended: David Goeicke (da.goedicke@gmail.com)
 Purpose: This run the interactivity and communication for the web app. This file
@@ -41,7 +41,7 @@ socket.on('server-msg', function(msg) {
   console.log('msg:', msg);
   switch (msg) {
     case "light":
-      takePicture()
+      takePicture()   //added line to use the input from Arduino
       document.body.style.backgroundColor = "white";
       console.log("white")
       break;
